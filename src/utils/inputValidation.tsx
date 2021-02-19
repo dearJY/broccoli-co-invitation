@@ -1,12 +1,13 @@
+// Check if the input value is equal to / greater than the least length.
 export function validateTextInputLength(leastLength: number = 0, value: string): boolean {
     try {
-        const strValue = new String(value);
-        return strValue.trim().length >= leastLength;
+        return value.trim().length >= leastLength;
     } catch {
         return false;
     }
 }
 
+// Check if the input value match the standard email format
 export function validateEmailInput(value: string): boolean {
     try {
         const re = /\S+@\S+/;
@@ -16,6 +17,7 @@ export function validateEmailInput(value: string): boolean {
     }
 }
 
+// Check if the input value is equal to the target value.
 export function validateConfirmInput(originalValue: string, currentValue: string) {
     try {
         return originalValue.trim() === currentValue.trim();

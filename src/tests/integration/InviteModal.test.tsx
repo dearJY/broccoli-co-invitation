@@ -1,6 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import InviteModal from '../../components/InviteModal';
-import userEvent from '@testing-library/user-event';
 import { setupServer } from 'msw/node'
 import { rest } from 'msw';
 import { SEND_INVITE_URL } from '../../apis'; 

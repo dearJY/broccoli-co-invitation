@@ -28,6 +28,9 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
+/**
+ * The Home page for Broccoli&Co including page header, page main body and page footer.
+ */
 export default function Home() {
     const _classes: Record<string, string> = useStyles();
     return (

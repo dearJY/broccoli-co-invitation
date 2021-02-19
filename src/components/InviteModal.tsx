@@ -36,6 +36,10 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
+/**
+ * Popup Modal for invitation requesting form
+ * @param {InviteModalProps} props
+ */
 export default function InviteModal(props: InviteModalProps) {
     const _classes = useStyles();
 

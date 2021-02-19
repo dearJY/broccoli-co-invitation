@@ -17,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
+/**
+ * Main body of the application which holds functionalities of
+ * requesting invitation.
+ */
 export default function MainPage() {
     const _classes: Record<string, string> = useStyles();
     const [showModal, setShowModal] = useState(false);

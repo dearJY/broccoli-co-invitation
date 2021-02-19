@@ -24,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
+/**
+ * The modal shown after invitation request is successfully processed.
+ * @param {SuccessModalProps} props 
+ */
 export default function SuccessModal(props: SuccessModalProps) {
     const fullScreen = useMediaQuery(useTheme().breakpoints.down('sm'));//Show modal in fullscreen when viewport is sm.
     const _classes = useStyles();
