@@ -21,7 +21,7 @@ A web application for people requesting invitations from Broccoli&Co.
 ## Functionality Overview
 
 The example application is a invitation website for an upcoming company. It uses a custom API
-for all invitaion requests.
+for all invitaion requests. You can view a live demo at https://dearjy.github.io/broccoli-co-invitation/
 
 ### UI Workflow
 
